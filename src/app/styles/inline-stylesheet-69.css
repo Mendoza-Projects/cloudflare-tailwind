@@ -1,0 +1,20 @@
+/* inline-style-69.css */
+.main-menu-top-nav {
+  background-color: var(--bs-bg-fill-02);
+  height: 48px;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu-bottom-nav {
+  display: flex;
+  background-color: aqua;
+}
+
+.menu-item {
+  background-color: #171717;
+  color: white;
+  border: none;
+  padding: 10px;
+}
