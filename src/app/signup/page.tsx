@@ -28,7 +28,7 @@ const Page = () => {
       {/* Example usage of the --vh variable in pixels */}
       <div className="h-[calc(var(--vh))] bg-blue-500">
         <p className="text-white text-center">
-          This element's height adjusts to the viewport height (in pixels).
+          This element&#39;s height adjusts to the viewport height (in pixels).
         </p>
       </div>
     </div>
