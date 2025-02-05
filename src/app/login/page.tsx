@@ -1,4 +1,3 @@
-// pages/page.tsx or _app.tsx
 'use client'
 
 import { useEffect } from "react";
@@ -30,7 +29,7 @@ const Page = () => {
       {/* Example usage of the --vh variable in pixels */}
       <div className="h-[calc(var(--vh))] bg-blue-500">
         <p className="text-white text-center">
-          This element's height adjusts to the viewport height (in pixels).
+          This element&apos;s height adjusts to the viewport height (in pixels).  {/* Changed the apostrophe */}
         </p>
       </div>
     </div>

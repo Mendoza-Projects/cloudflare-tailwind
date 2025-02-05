@@ -1,5 +1,4 @@
-// pages/page.tsx or _app.tsx
-'use client'
+'use client';
 import { useEffect } from "react";
 
 const Page = () => {

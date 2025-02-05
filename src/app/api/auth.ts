@@ -9,6 +9,8 @@ export async function GET(req: NextRequest) {
     const user = { username: "User", profileImage: "/default-avatar.png" }; // Mock user
     return NextResponse.json({ user }, { status: 200 });
   } catch (error) {
+    console.error(error); // Log the error for debugging purposes
     return NextResponse.json({ user: null }, { status: 401 });
   }
 }
+

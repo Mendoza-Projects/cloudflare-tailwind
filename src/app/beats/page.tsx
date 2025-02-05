@@ -1,7 +1,5 @@
-'use client'    
-
-// In your homepage (landing page) `page.tsx`
 import React from 'react';
+import Link from 'next/link';  // Import Link
 
 export default function HomePage() {
   return (
@@ -9,14 +7,14 @@ export default function HomePage() {
       <header className="main-top-nav-wrapper">
         <div className="left-menu">
           <ul className="menu-list">
-            <li><a href="/">Home</a></li>
-            <li><a href="/beats">Beats</a></li>
+            <li><Link href="/">Home</Link></li>  {/* Replace <a> with <Link> */}
+            <li><Link href="/beats">Beats</Link></li>  {/* Replace <a> with <Link> */}
           </ul>
         </div>
         <div className="right-menu">
           <ul className="menu-list">
-            <li><a href="/account">Account</a></li>
-            <li><a href="/contact">Contact</a></li>
+            <li><Link href="/account">Account</Link></li>  {/* Replace <a> with <Link> */}
+            <li><Link href="/contact">Contact</Link></li>  {/* Replace <a> with <Link> */}
           </ul>
           <div className="auth-buttons">
             <button className="bs-btn action-element">Sign Up</button>
